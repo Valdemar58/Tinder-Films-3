@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regName">
+
+    <TextView
+        android:id="@+id/NameBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/NameInput"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/reg_header_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/NameInput"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/NameBigText"
+        android:layout_marginHorizontal="75sp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/reg_placeholder_name"/>
+
+    <TextView
+        android:id="@+id/NameWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameInput"
+        android:layout_alignLeft="@id/NameInput"
+        android:layout_alignRight="@id/NameInput"
+        android:paddingHorizontal="5sp"
+        android:text="@string/reg_warning_name" />
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/NameWarning"
+        android:layout_marginTop="50sp"
+        android:layout_marginHorizontal="25sp"
+
+        android:text="@string/continue_btn" />
+</RelativeLayout>

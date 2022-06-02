@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regSex">
+
+    <TextView
+        android:id="@+id/SexBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/MaleButton"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/reg_header_sex"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp" />
+
+    <ToggleButton
+        android:id="@+id/MaleButton"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/SexBigText"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="50sp"
+        android:enabled="true"
+        android:background="@drawable/custom_toggle_button"
+        android:textOff="@string/reg_placeholder_sex_male"
+        android:textOn="@string/reg_placeholder_sex_male" />
+
+    <ToggleButton
+        android:id="@+id/FemaleButton"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/MaleButton"
+        android:layout_marginTop="10sp"
+        android:layout_marginHorizontal="25sp"
+        android:background="@drawable/custom_toggle_button"
+        android:textOn="@string/reg_placeholder_sex_female"
+        android:textOff="@string/reg_placeholder_sex_female"/>
+
+    <CheckBox
+        android:id="@+id/SexWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ContinueButton"
+        android:layout_marginTop="150sp"
+        android:layout_alignStart="@id/MaleButton"
+        android:layout_alignEnd="@id/MaleButton"
+        android:paddingHorizontal="5sp"
+        android:text="@string/reg_warning_sex" />
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/continue_btn" />
+</RelativeLayout>

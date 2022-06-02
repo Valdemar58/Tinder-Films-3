@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regShowMe">
+
+    <TextView
+        android:id="@+id/ShowMeBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/ShowMeMaleButton"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/reg_header_show_me"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp" />
+
+    <ToggleButton
+        android:id="@+id/ShowMeMaleButton"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/ShowMeBigText"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="50sp"
+        android:enabled="true"
+        android:background="@drawable/custom_toggle_button"
+        android:textOff="@string/reg_placeholder_show_me_male"
+        android:textOn="@string/reg_placeholder_show_me_male" />
+
+    <ToggleButton
+        android:id="@+id/ShowMeFemaleButton"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/ShowMeMaleButton"
+        android:layout_marginTop="10sp"
+        android:layout_marginHorizontal="25sp"
+        android:background="@drawable/custom_toggle_button"
+        android:textOn="@string/reg_placeholder_show_me_female"
+        android:textOff="@string/reg_placeholder_show_me_female"/>
+
+    <ToggleButton
+        android:id="@+id/ShowMeAllButton"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/ShowMeFemaleButton"
+        android:layout_marginTop="10sp"
+        android:layout_marginHorizontal="25sp"
+        android:background="@drawable/custom_toggle_button"
+        android:textOn="@string/reg_placeholder_show_me_all"
+        android:textOff="@string/reg_placeholder_show_me_all"/>
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/continue_btn" />
+</RelativeLayout>

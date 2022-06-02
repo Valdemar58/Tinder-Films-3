@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regPhoto">
+
+    <TextView
+        android:id="@+id/PhotoBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/PhotoButton"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/reg_header_photo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp" />
+
+
+    <ImageView
+        android:id="@+id/PhotoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_above="@id/PhotoButton"
+        android:layout_below="@id/PhotoBigText"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginVertical="50sp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Button
+        android:id="@+id/PhotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_above="@id/ContinueButton"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginBottom="100sp"
+        android:text="@string/reg_placeholder_photo" />
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/continue_btn" />
+
+
+</RelativeLayout>

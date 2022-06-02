@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regBirth">
+
+    <TextView
+        android:id="@+id/BirthBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/BirthInput"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/reg_header_birth"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp" />
+
+    <DatePicker
+        android:id="@+id/BirthInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BirthBigText"
+        android:layout_marginHorizontal="75sp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false" />
+        <!-- android:hint="@string/reg_placeholder_birth"/> -->
+
+    <TextView
+        android:id="@+id/BirthWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BirthInput"
+        android:layout_alignLeft="@id/BirthInput"
+        android:layout_alignRight="@id/BirthInput"
+        android:paddingHorizontal="5sp"
+        android:text="@string/reg_warning_birth" />
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:enabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/BirthWarning"
+        android:layout_marginTop="50sp"
+        android:layout_marginHorizontal="25sp"
+
+        android:text="@string/continue_btn" />
+</RelativeLayout>

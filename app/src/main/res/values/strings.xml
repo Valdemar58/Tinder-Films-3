@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">Tinder Films</string>
+
+    <string name="title_home">Дом</string>
+    <string name="title_dashboard">Карточки</string>
+    <string name="title_notifications">Уведомления</string>
+
+    <string name="reg_header_phone">Номер\nтелефона</string>
+    <string name="reg_placeholder_phone">+</string>
+    <string name="reg_warning_phone">Ваш номер телефона. Его нельзя будет изменить</string>
+
+    <string name="reg_header_name">Меня\nзовут</string>
+    <string name="reg_placeholder_name">Имя</string>
+    <string name="reg_warning_name">Так оно будет отображаться в TF, и ты не сможешь его изменить</string>
+
+    <string name="reg_header_birth">Мой день\nрождения</string>
+    <string name="reg_warning_birth">Твой возраст будет виден всем</string>
+
+    <string name="reg_header_sex">Я</string>
+    <string name="reg_placeholder_sex_male">МУЖЧИНА</string>
+    <string name="reg_placeholder_sex_female">ЖЕНЩИНА</string>
+    <string name="reg_warning_sex">Показывать мой пол в профиле</string>
+
+    <string name="reg_header_show_me">Показывать меня</string>
+    <string name="reg_placeholder_show_me_male">МУЖЧИНЫ</string>
+    <string name="reg_placeholder_show_me_female">ЖЕНЩИНЫ</string>
+    <string name="reg_placeholder_show_me_all">ВСЕ</string>
+
+    <string name="reg_header_school">Моя\nшкола</string>
+    <string name="reg_placeholder_school">Название школы</string>
+    <string name="reg_warning_school">Вот так это будет выглядеть в TF</string>
+
+    <string name="reg_header_interested_in">Интересы</string>
+    <string name="reg_warning_interested_in">Добавьте интересы в свой профиль, чтобы поделиться ими с другими пользователями</string>
+    <string name="reg_interested_in_action">Боевик</string>
+    <string name="reg_interested_in_western">Вестерн</string>
+    <string name="reg_interested_in_gangster">Гангстерский фильм</string>
+    <string name="reg_interested_in_detective">Детектив</string>
+    <string name="reg_interested_in_drama">Драма</string>
+    <string name="reg_interested_in_historical">Исторический фильм</string>
+    <string name="reg_interested_in_comedy">Комедия</string>
+    <string name="reg_interested_in_melodrama">Мелодрама</string>
+    <string name="reg_interested_in_musical">Мюзикл</string>
+    <string name="reg_interested_in_noir">Нуар</string>
+    <string name="reg_interested_in_political">Политический фильм</string>
+    <string name="reg_interested_in_adventure">Приключенчиский фильм</string>
+    <string name="reg_interested_in_fairy_tale">Сказка</string>
+    <string name="reg_interested_in_tragedy">Трагедия</string>
+    <string name="reg_interested_in_tragicomedy">Трагикомедия</string>
+    <string name="reg_interested_in_thriller">Триллер</string>
+    <string name="reg_interested_in_fantasy">Фантастический фильм</string>
+    <string name="reg_interested_in_horror">Ужасы</string>
+    <string name="reg_interested_in_disaster">Фильм-катастрофа</string>
+    <string name="reg_interested_in_youtube">YouTube</string>
+    <string name="reg_interested_in_twitch">Twitch</string>
+
+    <string name="reg_header_photo">Добавить фотографии</string>
+    <string name="reg_warning_photo">Добавьте фотографию, чтобы продолжить</string>
+    <string name="reg_placeholder_photo">Выбрать фото</string>
+
+    <string name="continue_btn">ПРОДОЛЖИТЬ</string>
+
+
+    <string name="reg_2">Ваш номер телефона. Его нельзя будет изменить</string>
+    <string name="reg_3">Ваш номер телефона. Его нельзя будет изменить</string>
+    <string name="reg_4">Ваш номер телефона. Его нельзя будет изменить</string>
+</resources>
